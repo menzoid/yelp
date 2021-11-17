@@ -11,6 +11,10 @@
   </head>
 
   <body>
+    <div class="banner">
+      <%= link_to "Home", restaurants_path %>
+      <%= link_to "New", new_restaurant_path %>
+    </div>
     <%= yield %>
   </body>
 </html>
